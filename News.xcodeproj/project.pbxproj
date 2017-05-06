@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		990D07A61EB9004C00F42FEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 990D07A51EB9004C00F42FEB /* main.m */; };
 		990D07A91EB9004C00F42FEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 990D07A81EB9004C00F42FEB /* AppDelegate.m */; };
-		990D07AC1EB9004C00F42FEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 990D07AB1EB9004C00F42FEB /* ViewController.m */; };
 		990D07AF1EB9004C00F42FEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990D07AD1EB9004C00F42FEB /* Main.storyboard */; };
-		990D07B11EB9004C00F42FEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 990D07B01EB9004C00F42FEB /* Assets.xcassets */; };
 		990D07B41EB9004C00F42FEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990D07B21EB9004C00F42FEB /* LaunchScreen.storyboard */; };
 		990D07BF1EB9004C00F42FEB /* NewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 990D07BE1EB9004C00F42FEB /* NewsTests.m */; };
 		990D07CA1EB9004C00F42FEB /* NewsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 990D07C91EB9004C00F42FEB /* NewsUITests.m */; };
+		990D07E71EB900DC00F42FEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 990D07D71EB900DC00F42FEB /* Assets.xcassets */; };
+		990D07E81EB900DC00F42FEB /* MaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 990D07DA1EB900DC00F42FEB /* MaskView.m */; };
+		990D07E91EB900DC00F42FEB /* MiddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 990D07DC1EB900DC00F42FEB /* MiddleView.m */; };
+		990D07EA1EB900DC00F42FEB /* MixView.m in Sources */ = {isa = PBXBuildFile; fileRef = 990D07DE1EB900DC00F42FEB /* MixView.m */; };
+		990D07EB1EB900DC00F42FEB /* NewsTipsLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 990D07E01EB900DC00F42FEB /* NewsTipsLabel.m */; };
+		990D07EC1EB900DC00F42FEB /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 990D07E21EB900DC00F42FEB /* SearchViewController.m */; };
+		990D07ED1EB900DC00F42FEB /* TopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 990D07E41EB900DC00F42FEB /* TopView.m */; };
+		990D07EE1EB900DC00F42FEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 990D07E61EB900DC00F42FEB /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,10 +45,7 @@
 		990D07A51EB9004C00F42FEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		990D07A71EB9004C00F42FEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		990D07A81EB9004C00F42FEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		990D07AA1EB9004C00F42FEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		990D07AB1EB9004C00F42FEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		990D07AE1EB9004C00F42FEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		990D07B01EB9004C00F42FEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		990D07B31EB9004C00F42FEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		990D07B51EB9004C00F42FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		990D07BA1EB9004C00F42FEB /* NewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +54,22 @@
 		990D07C51EB9004C00F42FEB /* NewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		990D07C91EB9004C00F42FEB /* NewsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsUITests.m; sourceTree = "<group>"; };
 		990D07CB1EB9004C00F42FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		990D07D71EB900DC00F42FEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		990D07D81EB900DC00F42FEB /* commenHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commenHeader.h; sourceTree = "<group>"; };
+		990D07D91EB900DC00F42FEB /* MaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskView.h; sourceTree = "<group>"; };
+		990D07DA1EB900DC00F42FEB /* MaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskView.m; sourceTree = "<group>"; };
+		990D07DB1EB900DC00F42FEB /* MiddleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiddleView.h; sourceTree = "<group>"; };
+		990D07DC1EB900DC00F42FEB /* MiddleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiddleView.m; sourceTree = "<group>"; };
+		990D07DD1EB900DC00F42FEB /* MixView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixView.h; sourceTree = "<group>"; };
+		990D07DE1EB900DC00F42FEB /* MixView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixView.m; sourceTree = "<group>"; };
+		990D07DF1EB900DC00F42FEB /* NewsTipsLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTipsLabel.h; sourceTree = "<group>"; };
+		990D07E01EB900DC00F42FEB /* NewsTipsLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTipsLabel.m; sourceTree = "<group>"; };
+		990D07E11EB900DC00F42FEB /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		990D07E21EB900DC00F42FEB /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		990D07E31EB900DC00F42FEB /* TopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopView.h; sourceTree = "<group>"; };
+		990D07E41EB900DC00F42FEB /* TopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopView.m; sourceTree = "<group>"; };
+		990D07E51EB900DC00F42FEB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		990D07E61EB900DC00F42FEB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +122,23 @@
 			children = (
 				990D07A71EB9004C00F42FEB /* AppDelegate.h */,
 				990D07A81EB9004C00F42FEB /* AppDelegate.m */,
-				990D07AA1EB9004C00F42FEB /* ViewController.h */,
-				990D07AB1EB9004C00F42FEB /* ViewController.m */,
+				990D07D71EB900DC00F42FEB /* Assets.xcassets */,
+				990D07D81EB900DC00F42FEB /* commenHeader.h */,
+				990D07D91EB900DC00F42FEB /* MaskView.h */,
+				990D07DA1EB900DC00F42FEB /* MaskView.m */,
+				990D07DB1EB900DC00F42FEB /* MiddleView.h */,
+				990D07DC1EB900DC00F42FEB /* MiddleView.m */,
+				990D07DD1EB900DC00F42FEB /* MixView.h */,
+				990D07DE1EB900DC00F42FEB /* MixView.m */,
+				990D07DF1EB900DC00F42FEB /* NewsTipsLabel.h */,
+				990D07E01EB900DC00F42FEB /* NewsTipsLabel.m */,
+				990D07E11EB900DC00F42FEB /* SearchViewController.h */,
+				990D07E21EB900DC00F42FEB /* SearchViewController.m */,
+				990D07E31EB900DC00F42FEB /* TopView.h */,
+				990D07E41EB900DC00F42FEB /* TopView.m */,
+				990D07E51EB900DC00F42FEB /* ViewController.h */,
+				990D07E61EB900DC00F42FEB /* ViewController.m */,
 				990D07AD1EB9004C00F42FEB /* Main.storyboard */,
-				990D07B01EB9004C00F42FEB /* Assets.xcassets */,
 				990D07B21EB9004C00F42FEB /* LaunchScreen.storyboard */,
 				990D07B51EB9004C00F42FEB /* Info.plist */,
 				990D07A41EB9004C00F42FEB /* Supporting Files */,
@@ -247,7 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				990D07B41EB9004C00F42FEB /* LaunchScreen.storyboard in Resources */,
-				990D07B11EB9004C00F42FEB /* Assets.xcassets in Resources */,
+				990D07E71EB900DC00F42FEB /* Assets.xcassets in Resources */,
 				990D07AF1EB9004C00F42FEB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,9 +305,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				990D07AC1EB9004C00F42FEB /* ViewController.m in Sources */,
+				990D07EE1EB900DC00F42FEB /* ViewController.m in Sources */,
 				990D07A91EB9004C00F42FEB /* AppDelegate.m in Sources */,
+				990D07E91EB900DC00F42FEB /* MiddleView.m in Sources */,
+				990D07ED1EB900DC00F42FEB /* TopView.m in Sources */,
+				990D07E81EB900DC00F42FEB /* MaskView.m in Sources */,
+				990D07EB1EB900DC00F42FEB /* NewsTipsLabel.m in Sources */,
+				990D07EA1EB900DC00F42FEB /* MixView.m in Sources */,
 				990D07A61EB9004C00F42FEB /* main.m in Sources */,
+				990D07EC1EB900DC00F42FEB /* SearchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

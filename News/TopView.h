@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TopView.h
 //  NewsAPP
 //
 //  Created by 邹前立 on 2017/4/29.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface TopView : UIView
 
-
+- (void) setTitle:(NSString *) title;
+//- (void) setSearchButton:(NSString *) imageName;
 @end
-
